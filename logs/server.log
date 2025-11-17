@@ -1,7 +1,79 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [157] using StatReload
-INFO:     Started server process [159]
+INFO:     Started reloader process [226] using StatReload
+INFO:     Started server process [228]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:32816 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:36566 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:36582 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36588 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36598 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36588 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36582 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36608 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54140 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54150 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54164 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35710 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54140 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54164 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35718 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35734 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35742 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35756 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35718 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35734 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58938 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58946 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58948 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58950 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58938 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58946 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58952 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58956 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58962 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58952 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53568 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58962 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58962 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53568 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58952 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58952 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58956 - "GET /api/platform-comparison?scenario=short&proposed_fare=300 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:58962 - "GET /api/chart-data HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51638 - "GET /api/platform-comparison?scenario=short&proposed_fare=348 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51654 - "GET /api/platform-comparison?scenario=short&proposed_fare=383 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51662 - "GET /api/platform-comparison?scenario=short&proposed_fare=454 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51676 - "GET /api/platform-comparison?scenario=short&proposed_fare=565 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51682 - "GET /api/platform-comparison?scenario=short&proposed_fare=623 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51684 - "GET /api/platform-comparison?scenario=short&proposed_fare=681 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51638 - "GET /api/platform-comparison?scenario=short&proposed_fare=739 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51654 - "GET /api/platform-comparison?scenario=short&proposed_fare=832 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51662 - "GET /api/platform-comparison?scenario=short&proposed_fare=921 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51676 - "GET /api/platform-comparison?scenario=short&proposed_fare=961 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51682 - "GET /api/platform-comparison?scenario=short&proposed_fare=1005 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51684 - "GET /api/platform-comparison?scenario=short&proposed_fare=1045 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51638 - "GET /api/platform-comparison?scenario=short&proposed_fare=1081 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51654 - "GET /api/platform-comparison?scenario=short&proposed_fare=1098 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51676 - "GET /api/platform-comparison?scenario=short&proposed_fare=1107 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51662 - "GET /api/platform-comparison?scenario=short&proposed_fare=1112 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51682 - "GET /api/platform-comparison?scenario=short&proposed_fare=1121 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51684 - "GET /api/platform-comparison?scenario=short&proposed_fare=1138 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51638 - "GET /api/platform-comparison?scenario=short&proposed_fare=1152 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51654 - "GET /api/platform-comparison?scenario=short&proposed_fare=1187 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51676 - "GET /api/platform-comparison?scenario=short&proposed_fare=1214 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51662 - "GET /api/platform-comparison?scenario=short&proposed_fare=1263 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51682 - "GET /api/platform-comparison?scenario=short&proposed_fare=1285 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51684 - "GET /api/platform-comparison?scenario=short&proposed_fare=1312 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51638 - "GET /api/platform-comparison?scenario=short&proposed_fare=1347 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51654 - "GET /api/platform-comparison?scenario=short&proposed_fare=1374 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51676 - "GET /api/platform-comparison?scenario=short&proposed_fare=1432 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51662 - "GET /api/platform-comparison?scenario=short&proposed_fare=1463 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51682 - "GET /api/platform-comparison?scenario=short&proposed_fare=1494 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51684 - "GET /api/platform-comparison?scenario=short&proposed_fare=1543 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51638 - "GET /api/platform-comparison?scenario=short&proposed_fare=1565 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51654 - "GET /api/platform-comparison?scenario=short&proposed_fare=1592 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51676 - "GET /api/platform-comparison?scenario=short&proposed_fare=1596 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51662 - "GET /api/platform-comparison?scenario=short&proposed_fare=1605 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51682 - "GET /api/platform-comparison?scenario=short&proposed_fare=1609 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51684 - "GET /api/platform-comparison?scenario=short&proposed_fare=1614 HTTP/1.1" 200 OK
